@@ -1,9 +1,12 @@
 <h1>Home page</h1>
 <%= link_to 'profile', profile_path%>
 
+
+
 <head>
   <title>Datastore and Firebase Auth Example</title>
 </head>
+<%= link_to "logout", destroy_user_session_path, method: :delete %>
 <body>
 
 <h1 >Finally... Transparent Investing</h1>
