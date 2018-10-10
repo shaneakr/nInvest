@@ -18,4 +18,5 @@ class PagesController < ApplicationController
   def vote
 
   end
+
 end
