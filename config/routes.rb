@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'profile', to: 'pages#profile'
   get 'company', to: 'pages#company'
   get 'friends', to: 'pages#friends'
+  get 'vote', to: 'pages#vote'
 end

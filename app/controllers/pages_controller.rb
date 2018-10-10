@@ -14,4 +14,8 @@ class PagesController < ApplicationController
   def company
 
   end
+
+  def vote
+
+  end
 end
