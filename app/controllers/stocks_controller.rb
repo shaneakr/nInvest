@@ -1,5 +1,6 @@
 class StocksController < ApplicationController
   def search
+
     if params[:stock].present?
       @stock = Stock.new_from_lookup(params[:stock])
       if @stock
@@ -10,5 +11,6 @@ class StocksController < ApplicationController
     else flash[:danger]= 'You have entered empty stock'
       redirect_to portfolio_path
       end
+
     end
 end
