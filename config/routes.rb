@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get 'vote', to: 'pages#vote'
   get 'portfolio', to: 'users#portfolio'
   get 'search_stocks', to: 'stocks#search'
+  resources :user_stocks, only: [:create]
 end
